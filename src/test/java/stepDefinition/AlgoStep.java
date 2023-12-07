@@ -11,14 +11,17 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class AlgoStep {
+	
+	
+	
 
-	public WebDriver driver;
+	/*public WebDriver driver;
 	@Given("The user opens Home Page")
     public void givenUserIsOnLoginPage() {
         driver.get("https://dsportalapp.herokuapp.com/"); // Replace with your actual login page URL
     }
 	
-	@When("The user clicks \"Data Structures\" drop down")
+	@When("The user clicks Data Structures drop down")
     public void whenUserEntersValidCredentials() {
         // Replace these values with your actual username and password
         String username = "winterchamps";
@@ -44,5 +47,6 @@ public class AlgoStep {
 	        // Close the browser after the test
 	        driver.quit();
 	    }
-
+	*/
+	
 }

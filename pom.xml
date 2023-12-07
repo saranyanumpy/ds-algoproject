@@ -16,16 +16,26 @@
         <artifactId>selenium-support</artifactId>
         <version>3.141.59</version> <!-- Use the same version as selenium-java -->
     </dependency>
-     <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-java</artifactId>
-        <version>6.10.4</version>
-    </dependency>
-    <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-testng</artifactId>
-        <version>6.10.4</version>
-    </dependency>
+     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.14.1</version>
+</dependency>
+
+  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.14.1</version>
+</dependency>
+
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.25.0</version>
+    <scope>test</scope>
+</dependency>
 
     <!-- TestNG dependency -->
     <dependency>
@@ -33,6 +43,6 @@
         <artifactId>testng</artifactId>
         <version>7.3.0</version>
     </dependency>
-
+   
   </dependencies>
 </project>
